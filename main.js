@@ -1,4 +1,4 @@
-for (let turno = 1; turno <= 7; turno++) {
+for (let entrada = 1; entrada <= 10; entrada++) {
     let nombre = prompt("ingrese su nombre").toLowerCase();
     let apellido = prompt("ingrese su apellido").toLowerCase();
     
@@ -18,5 +18,5 @@ for (let turno = 1; turno <= 7; turno++) {
         }
 
 
-    alert(`Turno: #${turno} Nombre: ${nombre}`)
+    alert(`entrada: #${entrada} Nombre: ${nombre}`)
 }
